@@ -16,3 +16,9 @@ target/
 **/node_modules
 **/package-lock.json
 **/dist
+
+**/installer
+**/libs
+**/out
+**/image
+**/mods

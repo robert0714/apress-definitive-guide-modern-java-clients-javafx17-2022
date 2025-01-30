@@ -8,9 +8,9 @@ system and unzip to a desired location.
 
 ### Linux, Mac
 
-    export JAVA_HOME=/Users/<user>/Downloads/jdk-13.jdk/Contents/Home/
-    export PATH_TO_FX=/Users/<user>/Downloads/javafx-sdk-12/lib/
-    export PATH_TO_FX_MODS=/Users/<user>/Downloads/javafx-jmods-12/
+    export JAVA_HOME=/Users/<user>/Downloads/jdk-17.jdk/Contents/Home/
+    export PATH_TO_FX=/Users/<user>/Downloads/javafx-sdk-17/lib/
+    export PATH_TO_FX_MODS=/Users/<user>/Downloads/javafx-jmods-17/
 
 Compile
 

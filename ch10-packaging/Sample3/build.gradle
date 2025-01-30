@@ -23,10 +23,10 @@ jlink {
     jpackage {
         if (javafx.getPlatform().name() == "OSX") {
             installerType = "dmg"
-            jpackageHome = "/Users/<user>/Downloads/jdk-13.jdk/Contents/Home"
+            jpackageHome = "/Users/<user>/Downloads/jdk-17.jdk/Contents/Home"
         } else if (javafx.getPlatform().name() == "WINDOWS") {
             installerType = "exe"
-            jpackageHome = "C:\\Users\\<user>\\Downloads\\jdk-13"
+            jpackageHome = "C:\\Users\\<user>\\Downloads\\jdk-17"
             installerOptions = ['--win-menu', '--win-shortcut', '--win-dir-chooser']
         }
     }

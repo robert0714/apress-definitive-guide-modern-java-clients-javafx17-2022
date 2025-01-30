@@ -2,7 +2,7 @@
 
 ### Linux, Mac
 
-    export JAVA_HOME=/Users/<user>/Downloads/jdk-13.jdk/Contents/Home/
+    export JAVA_HOME=/Users/<user>/Downloads/jdk-17.jdk/Contents/Home/
 
 Run
 
@@ -24,7 +24,7 @@ Produces: `build/jpackage/Sample3-1.0.dmg` (double click to install)
 
 ### Windows
 
-    set JAVA_HOME=C:\Users\<user>\Downloads\jdk-13
+    set JAVA_HOME=C:\Users\<user>\Downloads\jdk-17
 
 Run
 
