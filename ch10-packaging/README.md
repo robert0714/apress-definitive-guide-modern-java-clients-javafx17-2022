@@ -293,6 +293,8 @@ gu install native-image
 native-image --version
 ```
 
+See https://docs.gluonhq.com/#_graalvm_3120
+
 ### Requirements for macOS
 To use the plugin to develop and deploy native applications on macOS platforms, you need a Mac with macOS 10.13.2 or higher and Xcode 11 or higher, available from the Mac App Store. Once Xcode is downloaded and installed, open it to accept the license terms.
 
@@ -326,7 +328,8 @@ Note that all build commands must be executed in a Visual Studio 2022 command pr
 
 ### The Code
 The code for this example is on GitHub:
-https://github.com/gluonhq/gluon-samples/tree/master/HelloFX/src/main/java/hellofx
+* https://github.com/gluonhq/gluon-samples/tree/master/HelloFX/src/main/java/hellofx
+* https://github.com/gluonhq/gluon-samples/tree/master/HelloFXML/src/main/java/hellofx
 
 ### JavaFX References 
 * https://openjfx.io/openjfx-docs/#maven
@@ -340,6 +343,7 @@ gradlew clean build run (Windows)
 With Maven:  
 ```bash
 mvn clean javafx:run
+
 ```
 
 We will now compile, package, and run the native desktop application.
@@ -500,7 +504,7 @@ Consider copying it to D:\Data\workspaces\intelliJ\apress-definitive-guide-moder
 ```
 The link step produces the executable in the target subdirectory `target/gluonfx/{target-architecture}/HelloFX` (65.4 MB) or in `target\gluonfx\x86_64-windows\hellofx.exe` for Windows. Figure 10-13 shows the executable in a macOS file system.
 
-
+It can be executed directly or with `mvn gluonfx:nativerun`.
 #### Run
 Finally, you can run it with Gradle:
 ```bash
