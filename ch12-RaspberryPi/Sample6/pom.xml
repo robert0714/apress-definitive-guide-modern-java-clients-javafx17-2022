@@ -10,10 +10,10 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.compiler.release>11</maven.compiler.release>
-        <javafx.version>17-ea+14</javafx.version>
-        <javafx.maven.plugin.version>0.0.6</javafx.maven.plugin.version>
-        <gluonfx.maven.plugin.version>1.0.2</gluonfx.maven.plugin.version>
+        <maven.compiler.release>17</maven.compiler.release>
+        <javafx.version>21.0.6</javafx.version>
+        <gluonfx.maven.plugin.version>1.0.23</gluonfx.maven.plugin.version> 
+        <javafx.maven.plugin.version>0.0.8</javafx.maven.plugin.version>
         <runtime.jvm.options/>
         <runtime.options/>
         <remote.host.name/>

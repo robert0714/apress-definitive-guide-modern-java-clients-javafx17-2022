@@ -11,9 +11,9 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.compiler.release>11</maven.compiler.release>
-        <javafx.version>17-ea+6</javafx.version>
-        <javafx.plugin.version>0.0.5</javafx.plugin.version>
+        <maven.compiler.release>17</maven.compiler.release>
+        <javafx.version>21.0.6</javafx.version>
+        <javafx.plugin.version>0.0.8</javafx.plugin.version>
         <main.class>org.modernclient.MyShapes2</main.class>
     </properties>
 

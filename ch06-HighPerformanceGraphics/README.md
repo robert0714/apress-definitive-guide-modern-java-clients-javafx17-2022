@@ -1,4 +1,4 @@
-# modernclients
+# 6. High-Performance Graphics
 ## JavaFX Installation
 https://gluonhq.com/products/javafx/
 ## Environment

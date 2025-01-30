@@ -7,9 +7,10 @@
   <version>0.0.1-SNAPSHOT</version>
 
   <properties>
-    <maven.compiler.target>16</maven.compiler.target>
-    <maven.compiler.source>16</maven.compiler.source>
-    <javafx.version>17-ea+16</javafx.version>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <maven.compiler.release>17</maven.compiler.release>
+    <javafx.version>21.0.6</javafx.version>
+    <javafx.plugin.version>0.0.8</javafx.plugin.version>
   </properties>
 
 

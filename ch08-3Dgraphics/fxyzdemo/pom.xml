@@ -6,19 +6,22 @@
     <version>0.0.1</version>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.compiler.source>11</maven.compiler.source>
-        <maven.compiler.target>11</maven.compiler.target>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+        <javafx.version>21.0.6</javafx.version>
+        <javafx.plugin.version>0.0.8</javafx.plugin.version>
+        <mainClass>org.modernclientjava.javafx3d.FxyzDemo</mainClass>
     </properties>
     <dependencies>
         <dependency>
             <groupId>org.openjfx</groupId>
             <artifactId>javafx-controls</artifactId>
-            <version>16</version>
+            <version>${javafx.version}</version>
         </dependency>
         <dependency>
             <groupId>org.fxyz3d</groupId>
             <artifactId>fxyz3d</artifactId>
-            <version>0.5.3</version>
+            <version>0.6.0</version>
             <exclusions>
                 <exclusion>
                     <groupId>org.jzy3d</groupId>
@@ -33,16 +36,13 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.8.1</version>
-                <configuration>
-                    <release>11</release>
-                </configuration>
             </plugin>
             <plugin>
                 <groupId>org.openjfx</groupId>
                 <artifactId>javafx-maven-plugin</artifactId>
-                <version>0.0.6</version>
+                <version>${javafx.plugin.version}</version>
                 <configuration>
-                    <mainClass>org.modernclientjava.javafx3d.FxyzDemo</mainClass>
+                    <mainClass>${mainClass}</mainClass>
                 </configuration>
             </plugin>
         </plugins>
